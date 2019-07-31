@@ -1,12 +1,12 @@
 *{
-	box-sizing: border-box; 
-	/* This makes the widths of elements more consistent
-		Full details here https://css-tricks.com/box-sizing/ */
+	box-sizing: border-box;
+
 }
 
 body{
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	margin: 0px;
 	font-family: sans-serif;
+	color: #41474d;
 }
 
 section{
@@ -18,16 +18,17 @@ section{
 }
 
 header{
-	background-color: darkOrange;
-	color: white; /* more readable on an orange background */
-	padding-top: 50px;
-	padding-bottom: 50px;
+	background-color: #db8484;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
+
 
 nav{
 	width: 100%;
 	height: 60px;
-	background-color: wheat;
+	background-color: #7ba7d1;
 }
 
 nav a, nav h3{
@@ -40,35 +41,31 @@ nav a, nav h3{
 }
 
 nav a:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
+	text-decoration: underline;
 }
 
 
 
-/* Simple grid */
+
 .g-row{
 	width: 100%;
 	overflow: hidden;
 }
 
 .g-row img{
-	width: 100%; /*This makes all images in grids to be the size of their cell */
+	width: 100%;
 }
 
-.g-50{
-	width: 50%;
-	float: left;
-}
+
 
 .g-30{
 	width: 30%;
 	float: left;
+	margin-right:15px;
+	margin-top:15px;
 }
 
-.g-70{
-	width: 70%;
-	float: left;
-}
+
 
 .show{
 	border: 1px solid blue;
@@ -76,5 +73,5 @@ nav a:hover{
 }
 
 .padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
+	padding: 20px; 
 }
